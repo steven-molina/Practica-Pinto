@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 30px;
+  background: lightblue;
+  height: 60px;
+
+  nav {
+    display: flex;
+    gap: 10px;
+
+    a {
+      text-decoration: none;
+      color: black;
+    }
+  }
+}
+
+main {
+  margin: 20px 30px;
+
+  section {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(min(300px, 100%), 1fr));
+  }
+}

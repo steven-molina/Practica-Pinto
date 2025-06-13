@@ -1,11 +1,34 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./static/styles.css" />
+
     <title>Manipulación del DOM</title>
   </head>
   <body>
-    <script src="./static/bases.js"></script>
+    <header>
+      <h1>Mi blog</h1>
+      <nav>
+        <a href="#inicio">Inicio</a>
+        <a href="#destacados">Destacados</a>
+        <a href="#curiosidades">Curiosidades</a>
+      </nav>
+    </header>
+
+    <main>
+      <section id="main-post">
+        <article>
+          <p>Lo especial de flutter</p>
+        </article>
+
+        <article>
+          <p>Lo especial de JavaScript</p>
+        </article>
+      </section>
+    </main>
+
+    <script src="./static/document.js"></script>
   </body>
 </html>
